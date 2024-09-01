@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+
+
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+
+}
+
+.left {
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    height: 99vh;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    
+
+
+
+}
+
+.right {
+    background-color: #121212;
+    width: 100vw;
+    height: 90vh;
+    border-radius: 10px;
+    margin: 10px 8px 8px 0px;
+    overflow: overlay;
+    border-radius: 10px;
+    overflow-x: hidden;
+    
+
+
+}
+
+.Login {
+    padding: 11px 16px;
+    border-radius: 20px;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.Login:hover {
+    padding: 11px 17px;
+    border-radius: 20px;
+    border: none;
+    font-size: 13px;
+    font-weight: bolder;
+    background-color: white;
+}
+
+.Signup {
+    padding: 11px 16px;
+    border-radius: 20px;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(148, 148, 148);
+    background-color: #0e0d0d;
+}
+
+.Signup:hover {
+    font-size: 0.855em;
+    font-weight: bolder;
+    color: white;
+}
+
+
+.lbox1 {
+    background-color: #121212;
+    height: 120px;
+    width: 282px;
+
+    margin: 9px;
+    border-radius: 10px;
+
+
+}
+
+.lbox2 {
+    margin: 9px;
+    background-color: #121212;
+    width: 282px;
+    min-height: 76vh;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.logo {
+    filter: invert(1);
+    width: 70px;
+    margin: 12px;
+}
+
+.lbox1 ul li img {
+    width: 19px;
+    filter: invert(1);
+}
+
+.lbox1 ul li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+    margin-left: 5px;
+    padding: 7px;
+}
+
+.lbox2 ul li {
+    height: 25px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    
+
+
+}
+
+.lbox2 ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 11px;
+}
+
+.lbox2 img {
+    filter: invert(.6);
+    height: 18px;
+
+}
+.songlist {
+    height: 350px;
+    overflow: auto;
+}
+.songlist ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.songlist ul li {
+    border: 1px solid rgb(120, 120, 120);
+    border-radius: 10px;
+    height: 40px;
+    margin: 5px 0px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+.songlist img {
+    height: 20px;
+    padding: 5px;
+}
+ 
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width:280px;
+    display: flex;
+    flex-direction: column;
+    height: 55px;
+    
+}
+.nav {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 15px;
+    font-size: 9px;
+    padding-left: 15px;
+}
+.nav2 {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 15px;
+    font-size: 9px;
+    
+}
+.footer a {
+    color: gray;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 11px;
+    background-color: #0e0d0d;
+    border-radius: 10px;
+
+}
+
+.allcontainer {
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.containerhead {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    width
+}
+
+.containerhead h6 {
+    color: gray;
+
+}
+
+
+.container {
+    width: 153px;
+    padding: 8px;
+   
+    border-radius: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+
+}
+
+.container img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 7px;
+}
+
+.container p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+}
+
+.play {
+    position: absolute;
+    top: 125px;
+    left: 50px;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+.container:hover{
+    background-color: hsl(0 0% 16% / 3);
+}
+
+.play:hover{
+    transition: all 0.3s ease-out;
+    opacity: 1;
+    top: 115px;
+    
+}
+
+/* Webkit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+    /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+    /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555;
+    /* Scrollbar color */
+    border-radius: 10px;
+    /* Rounded corners */
+    border: 3px solid #1a1a1a;
+    /* Padding around scrollbar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+    /* Scrollbar color on hover */
+}
+
+/* Firefox */
+html {
+    scrollbar-width: thin;
+    /* Scrollbar width */
+    scrollbar-color: #555 #1a1a1a;
+    /* Scrollbar thumb and track color */
+}
+
+/* Optional: Additional styles for smoother scrolling */
+body {
+    overflow: overlay;
+}
+.playbar {
+    background-color: rgb(27, 27, 27);
+    height: 45px;
+    position: absolute;
+    bottom: 0%;
+    width: 75%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin: 1px;
+    border-radius: 5px;
+    
+
+}
+.playbar img {
+    filter: invert(1);
+    position: relative;
+    top: -5px;
+}
+.seekbar {
+    background-color: white;
+    height: 2px;
+    width: 65%;
+    bottom: 9px;
+    position: absolute;
+    margin-left: 55px;
+}
+.circle{
+    height: 11px;
+    width: 11px;
+    border-radius: 15px;
+    background-color: white;
+    position: absolute;
+    bottom: 4px;
+    margin-left: 50px;
+    left : 24%;
+    transition: left 0.5s;
+}
